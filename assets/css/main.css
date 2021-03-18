@@ -2376,7 +2376,6 @@ input[type="radio"]:focus + label:before {
 
 .icon.alt {
 	display: inline-block;
-	border: solid 1px;
 	border-radius: 100%;
 }
 
@@ -2441,12 +2440,11 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon.alt {
-	border-color: rgba(255, 255, 255, 0.35);
-	color: #ffffff;
+	color: #1ed7ad;
 }
 
 .icon.alt:hover {
-	background-color: rgba(255, 255, 255, 0.075);
+	box-shadow: 0px 0px 10px #1ed7ad;
 }
 
 .icon.alt:active {
