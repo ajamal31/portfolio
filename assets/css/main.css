@@ -188,7 +188,7 @@ html {
 }
 
 body {
-    background-color: rgb(27,27,29);
+	background-color: rgb(27, 27, 29);
 }
 
 body.is-preload *,
@@ -3381,13 +3381,13 @@ body.is-preload #header.alt .logo {
 }
 
 #nav ul li a:hover {
-	color: #1ed7ad; 
+	color: #1ed7ad;
 	box-shadow: 0px 0px 5px #1ed7ad;
 }
 
 #nav ul li a.active {
 	box-shadow: none;
-	color:whitesmoke
+	color: whitesmoke;
 }
 
 #nav.alt {
@@ -3646,7 +3646,7 @@ body.is-preload #header.alt .logo {
 	/* background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 	background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 	background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
-	background-image: linear-gradient(90deg, #1ED7AD, #00BAAC, #009CA3);
+	background-image: linear-gradient(90deg, #1ed7ad, #00baac, #009ca3);
 	box-shadow: 0px 0px 8px #1ed7ad;
 }
 
@@ -3856,4 +3856,9 @@ body.is-preload #header.alt .logo {
 	#wrapper {
 		max-width: 100%;
 	}
+}
+
+.projects-thumbnail {
+	width: 100%;
+	height: auto;
 }
