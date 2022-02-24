@@ -3477,6 +3477,7 @@ body.is-preload #header.alt .logo {
 	background-color: transparent;
 	box-shadow: 0px 0px 5px #1ed7ad;
 	color: #1ed7ad !important;
+	width: 100%;
 }
 
 #main input[type="submit"]:hover,
@@ -3860,5 +3861,68 @@ body.is-preload #header.alt .logo {
 
 .projects-thumbnail {
 	width: 100%;
-	height: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	background-color: transparent;
+    color: #cacaca !important;
+	margin-bottom: 20px;
+}
+
+.features a {
+	border: none;
+}
+
+.projects-thumbnail.weather-img {
+    box-shadow: 0px 0px 5px #00eeff;
+}
+
+.projects-thumbnail.weather-img:hover {
+    box-shadow: 0px 0px 15px #00eeff;
+	cursor: pointer;
+}
+
+/* #first .features .button.weather-button {
+	box-shadow: 0px 0px 5px #00eeff;
+	color: #01d3e2 !important;
+}
+
+#first .features .button.weather-button:hover {
+	box-shadow: 0px 0px 15px #00eeff;
+} */
+
+.projects-thumbnail.statify-img {
+    box-shadow: 0px 0px 5px #00ff88;
+}
+
+.projects-thumbnail.statify-img:hover {
+    box-shadow: 0px 0px 15px #00ff88;
+	cursor: pointer;
+}
+
+/* #first .features .button.statify-button {
+	box-shadow: 0px 0px 5px #00ff88;
+	color: #1edd84 !important;
+}
+
+#first .features .button.statify-button:hover {
+	box-shadow: 0px 0px 15px #00ff88;
+} */
+
+@media screen and (max-width: 736px) {
+	.projects-thumbnail {
+		width: 60%
+	}
+}
+
+#main header.major h2:after {
+	width: 3.6em;
+	margin-top: 0;
+}
+
+#work header.major h2:after {
+	width: 6.3em;
+	margin-top: 0;
+	background-color: #dddddd;
+    background-image: linear-gradient(90deg, #1ed7ad, #00baac, #009ca3);
+    box-shadow: 0px 0px 8px #1ed7ad;
 }
