@@ -3779,7 +3779,7 @@ body.is-preload #header.alt .logo {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding: 5em 5em 3em 5em;
+	padding: 0em 5em 3em 5em;
 	width: calc(100% + 2em);
 	margin: 0 0 3em -2em;
 }
@@ -3791,14 +3791,14 @@ body.is-preload #header.alt .logo {
 
 #footer .copyright {
 	width: 100%;
-	margin: 2.5em 0 2em 0;
+	margin: 2.5em 0 0em 0;
 	font-size: 0.8em;
 	text-align: center;
 }
 
 @media screen and (max-width: 1280px) {
 	#footer {
-		padding: 4em 4em 2em 4em;
+		padding: 0em 4em 2em 4em;
 	}
 }
 
@@ -3873,11 +3873,29 @@ body.is-preload #header.alt .logo {
 }
 
 .projects-thumbnail.weather-img {
-    box-shadow: 0px 0px 5px #00eeff;
+    box-shadow: 0px 0px 5px #72c9e4;
 }
 
 .projects-thumbnail.weather-img:hover {
-    box-shadow: 0px 0px 15px #00eeff;
+    box-shadow: 0px 0px 15px #72c9e4;
+	cursor: pointer;
+}
+
+.projects-thumbnail.movie-img {
+    box-shadow: 0px 0px 5px #bd99fa;
+}
+
+.projects-thumbnail.movie-img:hover {
+    box-shadow: 0px 0px 15px #9c79d8;
+	cursor: pointer;
+}
+
+.projects-thumbnail.blackjack-img {
+    box-shadow: 0px 0px 5px #72c9e4;
+}
+
+.projects-thumbnail.blackjack-img:hover {
+    box-shadow: 0px 0px 15px #72c9e4;
 	cursor: pointer;
 }
 
@@ -3891,11 +3909,11 @@ body.is-preload #header.alt .logo {
 } */
 
 .projects-thumbnail.statify-img {
-    box-shadow: 0px 0px 5px #00ff88;
+    box-shadow: 0px 0px 5px #8ae9bc;
 }
 
 .projects-thumbnail.statify-img:hover {
-    box-shadow: 0px 0px 15px #00ff88;
+    box-shadow: 0px 0px 15px #8ae9bc;
 	cursor: pointer;
 }
 
