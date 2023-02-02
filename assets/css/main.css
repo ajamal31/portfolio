@@ -3179,14 +3179,14 @@ table.alt tbody tr td {
 }
 
 #header.alt > * {
-	-moz-transition: opacity 3s ease;
-	-webkit-transition: opacity 3s ease;
-	-ms-transition: opacity 3s ease;
-	transition: opacity 3s ease;
-	-moz-transition-delay: 0.5s;
-	-webkit-transition-delay: 0.5s;
-	-ms-transition-delay: 0.5s;
-	transition-delay: 0.5s;
+	-moz-transition: opacity 4s ease;
+	-webkit-transition: opacity 4s ease;
+	-ms-transition: opacity 4s ease;
+	transition: opacity 4s ease;
+	-moz-transition-delay: 0.2s;
+	-webkit-transition-delay: 0.2s;
+	-ms-transition-delay: 0.2s;
+	transition-delay: 0.2s;
 	opacity: 1;
 }
 
