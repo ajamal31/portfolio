@@ -2675,7 +2675,7 @@ ul.actions.fit.stacked {
 		-ms-flex-shrink: 1;
 		flex-shrink: 1;
 		padding: 1em 0 0 0;
-		text-align: center;
+		text-align: right;
 		width: 100%;
 	}
 
@@ -3137,6 +3137,11 @@ table.alt tbody tr td {
 		flex: 0 1 auto;
 		margin-left: 0;
 		margin-bottom: 2em;
+	}
+
+	.work-title, 
+	.description {
+		text-align: left;
 	}
 }
 
