@@ -54,7 +54,8 @@
                         <p class="description">
                             I'm a <b>Software Engineer</b> at Peloton in NYC with <b>six years of experience</b>
                             building and scaling full-stack applications and APIs. Currently, I focus on integrating
-                            <b>machine learning technologies</b> into our platform.
+                            <b>machine learning technologies</b> into our platform to enhance user experiences and
+                            reduce costs.
                         </p>
                         <!-- <p class="description">
                             I started as a Software Developer at CGI, where I worked on major deliverables and change
@@ -102,27 +103,31 @@
                         </div>
                         <ul class="description">
                             <li>
-                                Led the development of a Model-Assisted Labeling system for videos, leveraging machine
-                                learning models to automatically generate labels and efficiently ship approximately 1000
-                                videos a week to a third-party vendor, which resulted in a cost reduction of $2,500 a
-                                week using <b>Django</b>, <b>Docker</b>, <b>PyTorch</b>, <b>RTMPose</b>, and
+                                Led the development of a Model-Assisted Labeling system that utilized machine learning
+                                models to automatically annotate videos with labels and visualizations. This enabled
+                                annotating around 1,000 videos per week, eliminating manual labeling efforts and
+                                resulting in a cost reduction of $2,500 weekly using <b>Django</b>, <b>Docker</b>,
+                                <b>PyTorch</b>, <b>RTMPose</b>, and
                                 <b>YoloX</b>.
                             </li>
-                            <li>Cut down video data costs from $30 to $0 per video by using data from users who opted in
-                                for sharing. In addition, the new data capture stream supplied up to 15,200 videos per
-                                week, in comparison to the previous maximum of 288 videos weekly using <b>Django</b>,
+                            <li>Developed a user-driven video ingestion system which eliminated cost of $30 per video by
+                                using video data from users who opted in for sharing. In addition, the new system
+                                enabled targeted collection of exercise videos, supplying 15,200 videos per week vs.
+                                previous 288 videos per week max, providing a larger, relevant dataset for ML model
+                                training using <b>Django</b>,
                                 <b>Python</b>, and <b>PostgreSQL</b>.
                             </li>
                             <li>
-                                Transformed raw predictions data from Machine Learning models into user-friendly
-                                visualizations on exercise videos, such as bounding boxes and keypoint skeletons,
-                                resulting in an increase in user engagement and a reduction in error rates using
+                                Transformed raw predictions from Machine Learning models into interactive visualizations
+                                overlaid on exercise videos, including bounding boxes and keypoint skeletons. These
+                                visualizations empowered the computer vision team to conduct in-depth data analysis,
+                                rapidly identifying and rectifying inaccurate predictions using
                                 <b>Django</b>, <b>Python</b>, and <b>React</b>.
                             </li>
                             <li>
-                                Optimized a large SQL view that previously consumed 1 TB of storage per query by storing
-                                data on <b>Amazon S3</b>, and developing an API endpoint for efficient data retrieval
-                                handling numerous daily requests, which greatly sped up queries.
+                                Improved query performance and reduced storage overhead by replacing an inefficient 1 TB
+                                SQL view with a serverless architecture, storing video metadata in S3 as JSON files and
+                                exposing an API to efficiently retrieve data, synced via hooks.
                             </li>
                             <li>
                                 Developed a custom development container to standardize local environment setup,
@@ -140,14 +145,16 @@
                                 times and made servers available for other critical requests.
                             </li>
                             <li>
-                                Mitigated repetitive tasks by 35% by building a REST API service that synchronized data
-                                with third-party human resource information systems, as measured by analyzing the amount
-                                of repetitive tasks the users needed to perform between the various systems.
+                                Mitigated repetitive tasks for HR teams by 35% by developing a REST API service that
+                                synchronized employee data (e.g. personal information, job details) between Lever's
+                                system and third-party HR platforms like Lattice and BambooHR, reducing manual entry
+                                across different systems as measured by analyzing task frequencies before and after the
+                                API integration.
                             </li>
                             <li>
-                                Refactored more than 10,000 lines of code and converted it from <b>CoffeeScript</b> to
-                                <b>TypeScript</b>, which made it easier for the development team to implement new
-                                features and resolve bugs.
+                                Optimized codebase by refactoring more than 10,000 lines of CoffeeScript code to
+                                TypeScript, making it easier for the development team to implement new features and
+                                resolve bugs, resulting in higher code quality.
                             </li>
                         </ul>
                         <div class="work-title">
